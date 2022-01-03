@@ -1,0 +1,27 @@
+{
+    "name": "medboubazine/twilio",
+    "type": "library",
+    "description": "Make integration with twilio easy for php",
+    "keywords": [
+        "php",
+        "twilio",
+        "twilio-sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boubazine mohammed",
+            "email": "mohamedtorino161@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "twilio/sdk": "^6.31"
+    },
+    "autoload": {
+        "psr-4": {
+            "Medboubazine\\Twilio\\": "src/"
+        }
+    }
+}
